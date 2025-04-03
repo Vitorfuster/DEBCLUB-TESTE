@@ -1,0 +1,47 @@
+:root {
+  --corbg0: #121b22;
+  --corlv1: #3a4044;
+  --corlv2: #128c7e;
+  --corlv3: #25d366;
+  --cortxt0: #fff;
+  --cortxt1: #a0a0a0;
+  --cortxt2: #60aa00;
+  --cortxt3: #c97200;
+  --cortxt4: #5e00f5;
+  --cortxt5: #a0a0a0;
+}
+
+.corbg0 {
+  background-color: var(--corbg0);
+}
+.corlv1 {
+  background-color: var(--corlv1);
+}
+.corlv2 {
+  background-color: var(--corlv2);
+}
+.corlv3 {
+  background-color: var(--corlv3);
+}
+.cortxt0 {
+  color: var(--cortxt0);
+}
+.cortxt1 {
+  color: var(--cortxt1);
+}
+
+.cortxt2 {
+  color: var(--cortxt2);
+}
+
+.cortxt3 {
+  color: var(--cortxt3);
+}
+
+.cortxt4 {
+  color: var(--cortxt4);
+}
+
+.cortxt5 {
+  color: var(--cortxt5);
+}

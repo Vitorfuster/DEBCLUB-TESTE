@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer-item img {
+  max-width: 20px;
+}
+
+.footer-item {
+  display: grid;
+  gap: 3px;
+  justify-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  color: var(--cortxt0);
+}
+
+.footer-item:nth-child(1) {
+  background-color: #128c53;
+  color: #00db2f;
+}
+
+.footer-item:hover {
+  background-color: #128c53;
+}

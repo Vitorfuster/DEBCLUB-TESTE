@@ -1,0 +1,18 @@
+/* Texto Deletado */
+.txtdell {
+  color: var(--cortxt1);
+  font-style: italic;
+}
+
+/* caixa de mensagem */
+.txt {
+  background-color: #3a3a3a;
+  border-radius: 15px;
+  padding: 5px 10px;
+  place-self: start;
+  max-width: 345px;
+}
+
+.txt:hover {
+  background-color: #128c53;
+}

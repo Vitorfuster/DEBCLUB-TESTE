@@ -1,0 +1,32 @@
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 10px 15px;
+}
+
+.header-info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  place-items: start;
+  gap: 12px;
+}
+
+.header-info h2 {
+  font-weight: 400;
+}
+
+.header-info img {
+  max-width: 50px;
+  border-radius: 360px;
+}
+
+.header-icone {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  align-items: center;
+}
+
+.header-icone img {
+  max-height: 25px;
+}

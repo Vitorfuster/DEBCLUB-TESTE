@@ -1,0 +1,19 @@
+.contatos-itens {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  padding: 10px 20px;
+  gap: 20px;
+}
+
+.contatos-itens:hover {
+  background-color: #3b4647;
+}
+
+.contatos-itens h2 {
+  font-weight: 500;
+}
+
+.contatos-itens > img {
+  max-width: 60px;
+  border-radius: 360px;
+}

@@ -1,0 +1,130 @@
+.scroll-texto-bg {
+  background-image: url("../../../../../img/backgrounds/fundoconversa.jpg");
+}
+
+.scroll-texto {
+  display: grid;
+  overflow-y: scroll;
+  max-height: 754px;
+  padding: 10px;
+}
+
+.texto-img img {
+  max-width: 30px;
+  border-radius: 360px;
+}
+
+.texto-img h3 {
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.texto-img {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.horas {
+  margin-left: 15px;
+  color: var(--cortxt1);
+}
+
+.texto {
+  margin-left: 40px;
+  margin-bottom: 5px;
+}
+
+.texto h3 {
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.texto .txtdell::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../../../../../img/icones/cancelar.png");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  margin-bottom: -5px;
+}
+
+.audio-img img {
+  max-height: 30px;
+}
+
+.audio-foto {
+  border-radius: 360px;
+  margin-left: 20px;
+  height: 50px;
+  align-self: center;
+}
+
+.audio {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-left: 40px;
+  margin-bottom: 5px;
+}
+
+.audio-img {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.audio h3 {
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.audio-img img:nth-child(1) {
+  max-height: 20px;
+}
+
+.audio-span {
+  display: flex;
+  padding-left: 12px;
+  justify-content: space-between;
+}
+
+.outro {
+  margin-top: 10px;
+}
+.eu {
+  justify-self: end;
+  background-color: var(--corlv2);
+}
+
+.imagem div img {
+  border-radius: 10px;
+  max-width: none;
+  max-width: 100%;
+  max-height: 505px;
+  position: relative;
+}
+
+.imagem div {
+  padding-bottom: 50px;
+  max-height: 500px;
+  overflow-y: hidden;
+}
+
+.imagem div {
+  position: relative;
+}
+
+.imagem div span {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.dia {
+  margin: 13px 0px;
+  justify-self: center;
+  border-radius: 5px;
+}

@@ -1,0 +1,34 @@
+.envio {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 60px;
+  margin: 0px auto;
+}
+
+.envio-campo {
+  display: flex;
+  background-color: var(--corlv1);
+  padding: 10px 15px;
+  gap: 15px;
+  border-radius: 25px;
+  margin: auto auto;
+  align-content: center;
+}
+
+.envio-campo span {
+  margin-right: 95px;
+}
+
+.envio-campo img {
+  max-width: 25px;
+}
+
+.envio-campo img + img {
+  margin-left: 10px;
+}
+
+.microfone {
+  max-width: 50px;
+  border-radius: 360px;
+  align-self: center;
+}
